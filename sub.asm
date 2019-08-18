@@ -1,7 +1,7 @@
 .data
 	num1: .asciiz "Informe o primeiro numero: "
 	num2: .asciiz "Informe o segundo numero: "
-	resultado: .asciiz "O resultado da soma é: "
+	resultado: .asciiz "O resultado da subtração é: "
 .text 
 	li $v0,4
 	la $a0,num1
